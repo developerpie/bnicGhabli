@@ -1,0 +1,1 @@
+const i=(n,t)=>{if(t&&n!=null){const e=n.findIndex(d=>d.isoCode===t);return e!==-1?n[e]:void 0}},u=(n,t,e)=>{if(t&&e&&n!=null){const d=n.findIndex(r=>r.isoCode===t&&r.countryCode===e);return d!==-1?n[d]:void 0}};function f(n){return n.name}const o=(n,t,e=f)=>e(n)<e(t)?-1:e(n)>e(t)?1:0;export{i as a,o as c,u as f};

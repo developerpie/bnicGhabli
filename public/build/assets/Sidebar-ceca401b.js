@@ -1,0 +1,1 @@
+import{j as e}from"./app-8c4d1a63.js";import t from"./StepItem-0809e169.js";const a=({steps:s})=>e.jsx("aside",{className:"basis-1/4 h-screen p-2 mobile:hidden items-center flex justify-center",children:e.jsx("div",{className:"bg-[#FAFAFB] flex flex-col gap-12   justify-center rounded-lg w-full p-8 h-full",children:s.map(r=>e.jsx(t,{...r}))})});export{a as default};

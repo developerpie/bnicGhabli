@@ -1,0 +1,1 @@
+import{j as a,r as b}from"./app-8c4d1a63.js";const p=({className:t,type:o,children:r,onClick:s,variant:u,size:e,disabled:m,color:n="blue"})=>a.jsx(b.Button,{disabled:m,size:e,variant:u,className:t,type:o==="submit"?"submit":"button",onClick:s,color:n,children:r});export{p as default};

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@flaticon/flaticon-uicons/css/all/all";
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #474747;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #060b0e;
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: black white;
+}

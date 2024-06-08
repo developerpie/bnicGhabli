@@ -1,0 +1,18 @@
+// SPDX-License-Identifier: MIT
+// compoiler 0.8.2
+pragma solidity ^0.8.0;
+
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.8/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+
+contract NFTGenerator is ERC721URIStorage {
+    constructor() ERC721("NFTGenerator", "NGT") {}
+
+    function mintNFT(
+        address recipient,
+        uint256 tokenId,
+        string memory uri
+    ) external {
+        _mint(recipient, tokenId);
+        _setTokenURI(tokenId, uri);
+    }
+}
